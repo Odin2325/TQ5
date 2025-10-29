@@ -218,3 +218,50 @@ label_ergebnis = tk.Label(root, text="Ergebnis: Warten auf Eingabe...", fg="blue
 label_ergebnis.pack(pady=10)
  
 root.mainloop()
+
+
+
+# Dictionaries
+
+# Ein Dictionary ist eine Sammlung von Key-Value-Pairs (Schlüssel-Wert-Paaren)
+# Key (Schlüssel) ist immer ein String, der Value (Wert) ist beliebig:
+
+schueler = {
+    'name': 'Paul Bach', # Value ist ein String
+    'alter': 14, # Value ist ein Integer
+    'wohnort': 'Berlin', # Value ist ein String
+    'durchschnittsnote' : 2.5, # Value ist ein Float
+    'noten': { 'mathe': 3, 'deutsch' : 2} # Value ist ein Dictionary
+}
+
+# Zugriff auf values mittels dict[key]
+name = schueler['name']
+
+print(f'Der Name der Person lautet: { name }')
+print(f'Sie ist { schueler['alter'] } Jahre alt.')
+
+# man kann Dictionaries auch komplett ausgeben
+print(schueler)
+
+# beim lesenden Zugriff auf Keys, die es nicht gibt, kommt ein Fehler
+print(schueler['plz'])
+
+# man kann aber schreibend auf Keys zugreifen, die es nicht gibt,
+# also neue Einträge dem dictionary hinzufügen
+schueler['plz'] = '01234'
+
+# in einer Schleife alle Keys durchlaufen und jeden Key ausgeben:
+for key in schueler:
+    print(key)
+
+# in einer Schleife alle Keys durchlaufen und jeden Value dazu ausgeben:
+for key in schueler:
+    print(schueler[key])
+
+# in einer Schleife alle Values durchlaufen und jeden Value ausgeben:
+for value in schueler.values():
+    print(value)
+
+# in einer Schleife alle Items (Key-Value-Pairs) durchlaufen:
+for key, value in schueler.items():
+    print(f'Der Wert zu dem Key {key} ist {value}')
