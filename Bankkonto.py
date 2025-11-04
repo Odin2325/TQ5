@@ -11,7 +11,7 @@ class Bankkonto:
         self.Kontostand = 0
         self.Kontoinhaber = Kontoinhaber
         self.IBAN = Bankkonto.automatisches_IBAN()
-
+ # Guten Morgen
     def automatisches_IBAN():
         iban = 'DE'
         for zahl in range(0,18):
