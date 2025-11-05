@@ -19,4 +19,12 @@ Hauptablauf:
     6. Kunde bezahlt mit gewünschte mehtode
     7. Kunde bekommt bestell und bezhal bestätigun per email und ausdruckbar als option
 Alternativabläufe:
-    1. 
+    1. Das vom Kunden ausgeählte Essen ist nicht vorrätig.
+        - Es werden alternativen angezeigt
+    2. Der Kunde will das Essen abholen
+        - Es werden die Adresse und Uhrzeit wann der Kunde das Essen abholen kann angezeigt.
+Ausnahmen:
+    1. Der Server ist durch zuviele bestellungen kurzzeitig nicht erreichtbar
+        - Es wird eine entsprechende nachricht als pop up angezeigt um den Kunden diesbezüglich zu informaieren
+    2. Die zu liefernde adresse ist zu weit für den lieferdienst
+        - Der Kunde wird beim bestelvorgang bei der Adress angbae darüber informiert und es wird nur die option angeboten es abholen zu kommen.

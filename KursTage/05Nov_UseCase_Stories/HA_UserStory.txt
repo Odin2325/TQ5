@@ -1,0 +1,13 @@
+Titel: Reiseort auswählen
+Beschriebeung: Als Nutzer möchte ich eine Reise planne und suche nach einem geignetem ort über den Reiseportal/Reiseplannungs-App, damit ich die Reise besser plannen kann
+Akzeptanzkriterien: 
+    1. Der Nutzer kann Reiseziel Ort datum und uhrzeit wählen
+    2. Der Nutzer bekommt eine bestätigung per mail und als option sie drucken zu können
+    3. Der Nutzer kann mit seiner buchungsnummer die er mit der buchung der reise bekommt die reise bearbeiten oder sie stonieren.
+
+Titel: Einkauf von Büchern Online
+Beschreibung: Der Nutzer kann online ein buch suchen um es bestellen zu können, dadurch hat er eine schnellere und größere auswahl
+Akzeptanzkriterien: 
+    1. Der Nutzer sollte die buchnummer eingeben könne falls er sie kennt, um eine schnellere suche des buches zu ermöglichen
+    2. Der Nutzer sollte Online bücher nach kategoriesastion filtern könne, um eine bessere auswahlmöglichkeit zu ermöglichen
+    3. Der nutzer sollte bei bestellung eines buches sehen wann es kommt und mit vielen verschiedenen zahlungsmitteln bezahlen könne um eine gute user expierence dem Kunden zu liefern, damit er auch bescheid weiß wann sein buch kommt. 
