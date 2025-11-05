@@ -1,0 +1,38 @@
+Aufgabe: Kinoticket-Buchungssystem
+
+Beschreibung:
+Ein Kino möchte ein Online-System entwickeln, über das Besucher Kinotickets bequem von zu Hause aus kaufen können.
+
+Unsere Aufgabe:
+
+Formuliere 1 User Story für dieses System.
+Verwende dabei die typische Struktur:
+
+Als [Rolle] möchte ich [Ziel/Wunsch], damit/um [Nutzen/Zweck]
+
+Gebe auch Akzeptanzkriterien an
+
+Titel: Kinoticket OnlineShop
+
+Beschreibung:
+Als Kinobetreiber möchte ich den Besuchern die Möglichkeit geben Tickets von zu Hause kaufen zu können,
+damit ich mehr Tickets verkaufe.
+
+Akzeptanzkriterien:
+1. Der Kunde kann meine Webseite aufrufen.
+2. Der Kunde kann ein Nutzerkonto erstellen oder sich in sein bestehendes Konto einloggen.
+3. Der Kunde bekommt eine Übersicht über anstehende Vorstellungen, samt Saal und freie Plätze.
+4. Der Kunde kann eine Vorstellung / Saal und Platz wählen.
+5. Der Kunde kann eine Bezahlmethode wählen.
+6. Der Kunde kann seine gewünschten Tickets sofort bezahlen.
+7. Der Kunde bekommt sein Ticket als QR-Code oder im PDF-Format
+8. Ich habe einen Überblick über alle relevanten Informationen.
+    8.1. Belegte / Offene Plätze
+    8.2. Zahlungsbestätigung
+    8.3. Statistiken 
+        8.3.1. Besucher/Film
+        8.3.2. Besucher/Zeit
+        8.3.3. Regelmäßige Besucher
+        8.3.4. Auslastung der Säle
+        8.3.4. Welcher Anteil verkaufter Tickets wurde online gekauft
+

@@ -1,0 +1,23 @@
+Name: Film hinzufügen
+Akteure: Admin, Adminkonsole mit nötigen Eingabemasken, Externe Film Datenbank / API
+Ziel: Administrator legt einen neuen Film, mit Meta Daten im System an.
+Vorbedingung:
+  Adminkonsole,
+  Datenbank,
+  Tabellen in Datenbank müssen angelegt sein.
+  Film Informationen müssen verfügbar sein.
+  Externer Server mit Filminformationen muss angebunden sein.
+  Eingabemaske für Daten muss vorhanden sein. / Film Informationen müssen über externe API verfügbar sein.
+Nachbedingung: Film wurde angelegt und mit sämtlichen Meta-Daten in der Datenbank gespeichert.
+Hauptablauf:
+  Admin meldet sich in der Adminkonsole an.
+  Admin sucht nach Filmname / Teile des Filmnamens.
+  Admin kann gewünschte Filminformationen per Knopfdruck von externem Server einlesen.
+  Filmdaten werden nach dem einlesen in der DB gespeichert.
+Alternativabläufe:
+  Externe Filmdatenbank nicht erreichbar.
+    Fehlermeldung wird angezeigt.
+    Admin wird die Möglichkeit gegeben Filminformationen manuel über eine Eingabemaske einzugeben.
+Ausnahmen:
+  Backend nicht erreichbar.
+    Fehlermeldung
