@@ -8,6 +8,6 @@ Unsere Aufgabe:
 Formuliere 1 User Story für dieses System.
 Verwende dabei die typische Struktur:
 
-Als [Rolle] möchte ich [Ziel/Wunsch], um [Nutzen/Zweck]
+Als [Rolle] möchte ich [Ziel/Wunsch], damit/um [Nutzen/Zweck]
 
 Gebe auch Akzeptanzkriterien an
