@@ -1,5 +1,5 @@
 import beispiele
-import Uebungen.Tag04.lösung
+import KursTage.Tag04.lösung
 
 print(beispiele.summe(12,45))
 
