@@ -1,0 +1,22 @@
+1. Einleitung
+
+Die Stadtverwaltung möchte ein digitales System einführen, das Autofahrern hilft, freie Parkplätze in Echtzeit zu finden. 
+Das System soll über eine App und eine Webplattform verfügbar sein. 
+Sensoren auf den Parkplätzen melden, ob ein Platz frei oder belegt ist. Nutzer sollen Parkplätze suchen, reservieren und bezahlen können.
+
+2. Funktionale Anforderungen
+
+Parkplatzanzeige:	Das System zeigt verfügbare Parkplätze in Echtzeit auf einer Karte an.
+Parkplatzsuche:		Nutzer können Parkplätze nach Standort, Preis und Größe filtern.
+Navigation:			Nach Auswahl eines Parkplatzes kann der Nutzer eine Navigation dorthin starten.
+Reservierung:		Nutzer können einen Parkplatz für eine bestimmte Zeitspanne reservieren.
+Bezahlung:			Bezahlung erfolgt direkt über die App/Webplattform (z. B. per Kreditkarte, PayPal).
+Benutzerkonto:		Nutzer können Profile anlegen, Zahlungsmethoden speichern und Buchungshistorien einsehen.
+Benachrichtigung:	Push-Nachrichten informieren über Ablaufzeiten oder Reservierungsbestätigungen.
+
+3. Nicht-funktionale Anforderungen
+
+Sicherheit:	Alle Benutzer- und Zahlungsdaten werden per TLS/SSL verschlüsselt übertragen.
+Zugriffsschutz:	Authentifizierung über Benutzername, Passwort und ggf. 2-Faktor-Authentifizierung.
+Performance: Karten- und Parkplatzdaten sollten schnell geladen werden.
+Benutzerfreundlichkeit: Die App und Webplattform sollen eine intuitive, barrierearme Oberfläche bieten.
