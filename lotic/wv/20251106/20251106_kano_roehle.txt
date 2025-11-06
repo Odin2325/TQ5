@@ -1,0 +1,23 @@
+Basisfaktoren (Muss)
+    * Die App soll kostenlos sein.
+    * Das System soll bei normaler Nutzung keine Abstürze verursachen.
+    * Die App soll Datenschutz nach DSGVO gewährleisten.
+    * Der Akkuverbrauch soll so gering wie möglich sein.
+    * Die Benutzeroberfläche soll intuitiv und leicht verständlich sein.
+Leistungsfaktoren (Soll)
+    * Die App soll dunklen Modus (Dark Mode) unterstützen.
+    * Die App soll in mehreren Sprachen verfügbar sein.
+    * Das Design soll modern und ansprechend wirken.
+    * Die App soll auf Android und iOS verfügbar sein.
+    * Die App soll innerhalb von 2 Sekunden starten.
+Begeisterungsfaktoren (Kann)
+    * Nutzer sollen sich per Fingerabdruck oder Gesichtserkennung anmelden können.
+    * Die App soll keine Werbung enthalten.
+    * Die App soll offline funktionieren, auch ohne Internetverbindung.
+    * Die App soll Benachrichtigungen in Echtzeit senden (z. B. Erinnerungen). #Falls optional
+Unerhebliche Faktoren (Egal)
+Rückweisungsfaktoren (Besser nicht)
+    * Alle Daten sollen automatisch in der Cloud gesichert werden. #Falls nicht optional
+    * Die App soll Benachrichtigungen in Echtzeit senden (z. B. Erinnerungen). #Falls nicht optional
+
+
