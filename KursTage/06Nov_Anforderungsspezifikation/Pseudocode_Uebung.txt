@@ -1,0 +1,207 @@
+    1.
+    array TaskList := []
+    string userChoice := ""
+        
+        solange userChoice <> "7"
+
+            ZEIGE "1. Add Task"
+            ZEIGE "2. Edit Task"
+            ZEIGE "3. Delete Task"
+            ZEIGE "4. Mark Task as Completed"
+            ZEIGE "5. View Tasks"
+            ZEIGE "6. Sort Tasks"
+            ZEIGE "7. Exit"
+
+            EINGABE userChoice
+
+            wenn userChoice = "1" dann
+                RUFE AddTask AUF
+            sonst wenn userChoice = "2" dann
+                RUFE EditTask AUF
+            sonst wenn userChoice = "3" dann
+                RUFE DeleteTask AUF
+            sonst wenn userChoice = "4" dann
+                RUFE MarkTaskCompleted AUF
+            sonst wenn userChoice = "5" dann
+                RUFE ViewTasks AUF
+            sonst wenn userChoice = "6" dann
+                RUFE SortTasks AUF
+            sonst wenn userChoice = "7" dann
+                RUFE DeleteTask AUF
+            sonst
+                ZEIGE "Invalid choice. Please try again."
+            Ende wenn
+        Ende solange
+
+ 
+        Vorgabe 
+
+            FUNCTION AddTask
+        string description := ""
+        ZEIGE "Enter task description:"
+        EINGABE description
+
+        INPUT "Enter due date (YYYY-MM-DD): " AS dueDate
+        INPUT "Enter priority (1-5): " AS priority
+
+        DISPLAY "Task added successfully."
+    END FUNCTION
+
+    Lösung:
+    funktion AddTask
+        string description := ""
+        ZEIGE "Enter task description:"
+        EINGABE description
+
+        string dueDate := ""
+        ZEIGE "Enter due date (YYYY-MM-DD):"
+        EINGABE dueDate
+
+        string priority := ""
+        ZEIGE "Enter priority (1-5):"
+        EINGABE priority
+
+        ZEIGE "Task added successfully"
+    Ende funktion
+
+   2.
+
+    FUNCTION EditTask
+        INPUT "Enter task number to edit: " AS taskNumber
+        IF taskNumber IS valid THEN
+            INPUT "Enter new description: " AS description
+            INPUT "Enter new due date (YYYY-MM-DD): " AS dueDate
+            INPUT "Enter new priority (1-5): " AS priority
+            DISPLAY "Task updated successfully."
+        ELSE
+            DISPLAY "Invalid task number."
+        END IF
+    END FUNCTION
+
+    Lösung:
+        funktion EditTask
+        string taskNumber := ""
+        ZEIGE "Enter task number to edit: "
+        EINGABE taskNumber
+
+        wenn taskNumber = True dann
+            string beschreibung := ""
+            ZEIGE "Enter new description: "
+            EINGABE beschreibung
+
+            string dueDate := ""
+            ZEIGE "Enter new due date (YYYY-MM-DD): "
+            EINGABE dueDate
+
+            string priorität := ""
+            ZEIGE "Enter new priority (1-5): "
+            EINGABE priorität
+
+            ZEIGE "Task updated successfully."
+        sonst
+            ZEIGE "Invalid task number."
+        Ende wenn
+    Ende funktion
+       
+    3.
+
+        FUNCTION DeleteTask
+        INPUT "Enter task number to delete: " AS taskNumber
+        IF taskNumber IS "valid" THEN
+            DISPLAY  "Task deleted successfully."
+        ELSE
+            DISPLAY "Invalid task number."
+        END IF
+    END FUNCTION
+
+    Lösung:
+
+        funktion DeleteTask
+        string taskNumber:= ""
+        ZEIGE "Enter task number to delete: "
+        EINGABE taskNumber
+
+        wenn taskNumber = True dann
+            ZEIGE
+        DISPLAY "Task deleted successfully."
+        sonst
+            ZEIGE "Invalid task number."
+        Ende wenn
+    Ende funktion 
+                  
+ 4.    FUNCTION MarkTaskCompleted
+        INPUT "Enter task number to mark as completed: " AS taskNumber
+        IF taskNumber IS "valid" THEN
+            "Enter task number to mark as completed: "
+        ELSE
+            DISPLAY "Invalid task number."
+        END IF
+    END FUNCTION
+
+    Lösung:
+funktion MarkTaskCompleted
+    string taskNumber:= ""
+    ZEIGE "Enter task number to mark as completed: "
+    EINGABE taskNumber
+
+    wenn taskNumber = "valid" dann 
+        ZEIGE "Enter task number to mark as completed: "
+    sonst
+        ZEIGE "Invalid task number."
+    Ende wenn 
+Ende funktion
+
+5.
+    FUNCTION SortTasks
+        DISPLAY "Sort by: "
+        DISPLAY "1. Due Date"
+        DISPLAY "2. Priority"
+        INPUT sortChoice
+        SWITCH sortChoice
+            CASE "1":
+                SORT TaskList BY dueDate
+            CASE "2":
+                SORT TaskList BY priority
+            DEFAULT:
+                DISPLAY "Invalid choice."
+        END SWITCH
+    END FUNCTION
+
+Lösung:
+funktion SortTasks(array TaskList)
+    ZEIGE "Sort by: "
+    ZEIGE "1. Due Date"
+    ZEIGE "2. Priority"
+    string sortChoice := ""
+    EINGABE sortChoice
+    wenn sortChoice = "1" dann
+       SORTIERE TaskList NACH dueDate
+    sonst wenn sortChoice = "2"
+       SORTIERE TaskList NACH priority
+    sonst
+        ZEIGE "Invalid choice."
+    Ende wenn
+Ende funktion
+ 
+
+ Umwandeln in IHK Format:
+ 
+6. double Grundgehalt
+integer Ueberstunden
+double Bonus
+integer Betriebszugehoerigkeit
+
+wenn Ueberstunden > 10 dann
+    Bonus = 200.0
+sonst wenn Betriebgszugehoerigkeit > 5 dann
+    Bonus = 100.0
+sonst
+    Bonus = 0
+
+Grundgehalt = Grundgehalt + Bonus
+
+ZEIGE Grundgehalt
+            
+        
+    
+       
