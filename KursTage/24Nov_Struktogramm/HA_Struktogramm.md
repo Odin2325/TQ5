@@ -1,5 +1,5 @@
 
-Aufgabe 1:
+#### Aufgabe 1:
 
 Zeichne ein Struktogramm für ein Programm, das folgenden Ablauf hat:
 
@@ -11,6 +11,6 @@ Zeichne ein Struktogramm für ein Programm, das folgenden Ablauf hat:
 1.  Wenn die Schleife beendet ist, gib die Meldung „Fertig!“ aus.
 
 
-Aufgabe 2:
+#### Aufgabe 2:
 
 Zeichne ein Struktogramm für ein Programm, welches aus einer gegebenen Liste von ganzen Zahlen das kleinste Element bestimmt und ausgibt.
