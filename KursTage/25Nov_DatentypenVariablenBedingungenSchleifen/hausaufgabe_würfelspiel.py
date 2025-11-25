@@ -2,9 +2,9 @@
 # Mit der random.randint() Methode simulieren wir den Wurf von drei sechsseitigen Würfeln.
 # Die Summe der gewürfelten Zahlen ist die erreichte Punktzahl
 # Wurf: 4 + 5 + 2 bedeutet 11 Punkte
-# Wenn die Augenzahl auf zwei Würfeln identisch ist, erhalten wir zwei Bonuspunkte für einen Zweierpasch.
+# Wenn die Augenzahl auf zwei Würfeln identisch ist, erhalten wir zwei Bonuspunkte ("Zweierpasch").
 # z.B. Wurf: 4 + 4 + 5 bedeutet 13 Punkte plus 2 Bonuspunkte, also 15 Punkte insgesamt
-# Wenn die Augenzahl auf allen drei Würfeln identisch ist, erhalten wir sechs Bonuspunkte für einen Dreierpasch.
+# Wenn die Augenzahl auf allen drei Würfeln identisch ist, erhalten wir sechs Bonuspunkte ("Dreierpasch").
 # z.B. Wurf 1 + 1 + 1 bedeutet 3 Punkte plus 6 Bonuspunkte also 9 Punkte insgesamt
 # Die Ausgabe soll alle drei Würfe, deren Summe, die Bonuspunkte und die Gesamtsumme beinhalten, z.B.:
 # "Wurf: 1 + 1 + 1 = 3 Punkte, 6 Bonuspunkte => 9 Punkte"
