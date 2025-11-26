@@ -21,7 +21,7 @@ Der `_kontostand` soll im Konstruktor `__init__(...)` initial auf 0 gesetzt werd
         ...
 ```
 
-Die Methode `einzahlen(betrag)` soll den Kontostand um den übergebenen Betrag erhöhen und den neuen Kontostand ausgeben.
+Die Methode `einzahlen(betrag)` soll den Kontostand um den übergebenen Betrag erhöhen.
 
 Die Methode `abheben(betrag)` den soll den Kontostand um den angegebenen Betrag verringern, sofern der Kontostand dafür ausreichend ist. Ansonsten soll das Abheben mit einer Fehlerausgabe abgebrochen werden.
 
@@ -36,5 +36,15 @@ konto1.einzahlen(100)
 print(konto1)
 konto1.abheben(30)
 print(konto1)
-konto1.abheben(200) # sollte Fehler ausgeben
+konto1.abheben(200) # sollte Fehler ausgeben und Abhebung wird nicht durchgeführt
+print(konto1)
+```
+
+#### Zusatz
+
+Der beim Einzahlen und Abheben übergebene Betrag soll immer >= 0 sein, ansonsten soll ein Fehler ausgegeben werden.
+
+```python
+konto1.einzahlen(-10) # sollte Fehler ausgeben und Einzahlen wird nicht durchgeführt
+konto1.abheben(-10) # sollte Fehler ausgeben und Abhebung wird nicht durchgeführt
 ```
