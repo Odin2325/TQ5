@@ -11,11 +11,13 @@ class GameState():
     def add_round(self, round):
         self._rounds.append(round)
     def game_stats(self):
+        total_points = 0
         for round in self._rounds:
-            self._total_points += round.get_round_points()
+            total_points += round.get_round_points()
+        self._total_points = total_points
         print('Game Status')
         print(f'Runden: {len(self._rounds)}')
-        print(f'Gesammtpunkte: {self._total_points}')
+        print(f'Gesamtpunkte: {self._total_points}')
 
 class GameRound():
     def __init__(
@@ -26,6 +28,7 @@ class GameRound():
         self._dice_points = 0
         self._bonus_points = 0
         self._round_points = 0
+        self._round_won = False
         self.roll_dices()
     def roll_dices(self):
         for dice in self._dices:
@@ -52,6 +55,8 @@ class GameRound():
         self._dice_points =  self._dices[0].get_roll() + self._dices[1].get_roll() + self._dices[2].get_roll()
         self._bonus_points = self.check_bonus_points()
         self._round_points = self._dice_points + self._bonus_points
+        if self._round_points >= 15:
+            self._round_won = True
     def get_dice_points(self):
         return self._dice_points
     def get_bonus_points(self):
@@ -63,6 +68,10 @@ class GameRound():
         print(f"Deine Würfe: Würfel1: {self._dices[0].get_symbol()}, Würfel2: {self._dices[1].get_symbol()}, Würfel3: {self._dices[2].get_symbol()}")
         print(f"Bonus Punkte: {self._bonus_points}")
         print(f"Punkte in dieser Runde: {self._round_points}")
+        if self._round_won:
+            print('Herzlichen Glückwunsch, du hast diese Runde gewonnen (Punkte >= 15).')
+        else:
+            print('Du hast diese Runde verloren (Punkte < 15)')
         
 
 class Dice():
