@@ -68,3 +68,15 @@ def hallo():
 * modul verwenden: `print(math.pi)`
 * gezielte Elemente importieren: `from math import pi` → `print(pi)`
 * eigene Module schreiben: Datei `mymodule.py` schreiben, dann woanders importieren mit `import mymodule`
+
+### Exceptions
+
+* Fehler abfangen, z.B. bei Typumwandlung String->Integer:
+```python
+eingabe = input('Gib eine Zahl ein: ')
+
+try:
+    zahl = int(eingabe)
+except ValueError:
+    print('Das war keine Zahl')
+```
