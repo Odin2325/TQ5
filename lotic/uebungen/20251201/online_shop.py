@@ -48,8 +48,15 @@ class Warenkorb:
         return sum
     def auflisten(self):
         for product in self._products:
+            #return product.info()
             print(product.info())
-
+    def speichern(self):
+        save_file = open('warenkorb_save.txt', 'w')
+        savestring = ''
+        for product in self._products:
+            savestring += product.info() + '\n'
+        save_file.write(savestring)
+# warenkorb_save.txt
 # Some Tests
 
 donut = Lebensmittel('Donut', 1.99, '03-12-2025')
@@ -61,4 +68,5 @@ warenkorb.hinzufuegen(donut)
 warenkorb.hinzufuegen(fernseher)
 warenkorb.hinzufuegen(lederjacke)
 warenkorb.auflisten()
+warenkorb.speichern()
 print(f'Gesamtpreis: {warenkorb.gesamtpreis()}')
