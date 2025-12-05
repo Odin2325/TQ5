@@ -2,18 +2,17 @@ import sqlite3
 
 class User:
     def __init__(self, user_id=None, name=None):
-        self.user_id = user_id
-        self.name = name
+        self._user_id = user_id
+        self._name = name
 
     def __repr__(self):
-        return f"User(id={self.id}, name='{self.name}')"
+        return f"User(id={self._user_id}, name='{self._name}')"
     def get_name(self):
-        return self.name
+        return self._name
     def set_id(self, id):
         self._user_id = id
     def get_id(self):
         return self._user_id
-
 
 class Post:
     def __init__(self, post_id=None, user_id=None, title=None):
@@ -75,7 +74,7 @@ class Database:
 
     # Fügt der DB einen Post hinzu
     def add_post(self, post: Post):
-        #try:
+        try:
             connection = sqlite3.connect(self._db_name)
             cur = connection.cursor()
             insert_values = [post.get_user_id(), post.get_title()]
@@ -88,12 +87,29 @@ class Database:
             connection.commit()
             connection.close()
             return True
-        #except:
+        except:
             return False
 
     # Holt alle Posts die zu einer bestimmten user_id gehören aus der DB
     def get_posts_for_user(self, user_id):
-        pass
+        try:
+            connection = sqlite3.connect(self._db_name)
+            cur = connection.cursor()
+            select_values = [user_id]
+            query = 'select * from post where user_id = ?'
+            res = cur.execute(query, select_values)
+            post_tuples = res.fetchall()
+            print('ptuple')
+            print(post_tuples)
+            connection.close()
+            post_list = []
+            for post_tuple in post_tuples:
+                post = Post(post_tuple[0], post_tuple[1], post_tuple[2])
+                post_list.append(post)
+            return post_list
+        except:
+            print('Fehler')
+            return False
 
 db = Database()
 
@@ -106,7 +122,7 @@ db.add_post(Post(None, bernd.get_id(), title="Hallo Welt"))
 db.add_post(Post(None, bernd.get_id(), title="Mein zweiter Post"))
 
 # Posts anzeigen
-#print("User:", bernd)
-#posts = db.get_posts_for_user(bernd.id)
-#print("Posts:", posts)
+print("User:", bernd)
+posts = db.get_posts_for_user(bernd.get_id())
+print("Posts:", posts)
  
