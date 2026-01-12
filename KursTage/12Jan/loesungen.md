@@ -23,7 +23,7 @@ def minimum(liste):
 def summe(liste):
     s = 0
     for x in liste:
-        s += x
+        s += x # s = s + x
     return s
 ```
 
@@ -45,20 +45,30 @@ def durchschnitt(liste):
 
 ## 6. Fakultät
 ```python
-def fakultaet(n):
+def fakultaet(n): # 0! = 1
     result = 1
     for i in range(1, n + 1):
-        result *= i
+        result *= i # result = result * i
     return result
 ```
 
 ## 7. Fibonacci
 ```python
-def fibonacci(n):
+def fibonacci(n): # 0, 1, 1, 2, 3, 5, 8, 13, ..
     a, b = 0, 1
     for _ in range(n):
         print(a)
         a, b = b, a + b
+
+# Variante ohne unpacking
+def fibonacci(n): # 0, 1, 1, 2, 3, 5, 8, 13, ..
+    a = 0
+    b = 1
+    for _ in range(n):
+        print(a)
+        next = a + b
+        a = b
+        b = next
 ```
 
 ## 8. Teiler finden
@@ -112,6 +122,16 @@ def haeufigkeiten(liste):
     for x in liste:
         result[x] = result.get(x, 0) + 1
     return result
+
+# Variante ohne get (man muss vorher nachsehen, ob Schlüssel im result vorhanden)
+def haeufigkeiten(liste):
+    result = {}
+    for x in liste:
+        if x in result:
+            result[x] = result[x] + 1
+        else:
+            result[x] = 1
+    return result
 ```
 
 ## 13. Zweitgrößte Zahl
@@ -139,7 +159,9 @@ def umdrehen(liste):
 ## 15. Liste rotieren
 ```python
 def rotieren(liste):
-    return [liste[-1]] + liste[:-1]
+    letztes = liste[-1]
+    liste_bis_letztes = liste[:-1]
+    return [letztes] + liste_bis_letztes
 ```
 
 ## 16. Zeichen zählen
@@ -201,13 +223,13 @@ def dezimal_zu_binaer(n):
     result = ""
     while n > 0:
         result = str(n % 2) + result
-        n //= 2
+        n //= 2   # n = n // 2
     return result
 ```
 
 ## 23. Binär zu Dezimal
 ```python
-def binaer_zu_dezimal(b):
+def binaer_zu_dezimal(b):   # 110101110
     result = 0
     for c in b:
         result = result * 2 + int(c)
