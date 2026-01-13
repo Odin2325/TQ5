@@ -249,7 +249,7 @@ def perfekte_zahl(n):
     s = 0
     for i in range(1, n):
         if n % i == 0:
-            s += i
+            s += i    # s = s + i
     return s == n
 ```
 
@@ -262,16 +262,71 @@ def lineare_suche(liste, ziel):
     return -1
 ```
 
+## 27. BubbleSort
+Bubblesort ez (ohne Abkürzungen)
+```python
+def bubble_sort(liste):
+    n = len(liste)
+
+    for i in range(n):
+        for j in range(0, n - 1):
+            if liste[j] > liste[j + 1]:
+                # j mit j + 1 tauschen
+                temp = liste[j]
+                liste[j] = liste[j + 1]
+                liste[j + 1] = temp
+                # alternatives tauschen mit unpacking: a, b = b, a
+                # liste[j], liste[j + 1] = liste[j + 1], liste[j]
+
+    return liste
+```
+
+mit Vergleich immer nur bis zum `n-i`.ten Element:
+```python
+def bubble_sort(liste):
+    n = len(liste)
+
+    for i in range(n):
+        for j in range(0, n - i - 1):
+            if liste[j] > liste[j + 1]:
+                # j mit j + 1 tauschen
+                temp = liste[j]
+                liste[j] = liste[j + 1]
+                liste[j + 1] = temp
+
+    return liste
+```
+
+mit Check ob Liste nach letztem Durchlauf bereits sortiert ist (keine Tauschung passiert):
+```python
+def bubble_sort(liste): # [5, 2, 4, 1, 0, 3]
+    n = len(liste)
+
+    for i in range(n):
+        getauscht = False
+        for j in range(0, n - i - 1):
+            if liste[j] > liste[j + 1]:
+                # j mit j + 1 tauschen
+                temp = liste[j]
+                liste[j] = liste[j + 1]
+                liste[j + 1] = temp
+                
+                getauscht = True
+        if getauscht: break
+
+    return liste
+```
+
 ## 29. Duplikate finden
 ```python
 def finde_duplikate(liste):
-    seen = set()
+    gesehen = set()
     dup = set()
     for x in liste:
-        if x in seen:
-            dup.add(x)
+        if x in gesehen:
+            dup.add(x) # { 3, 4} + {4} = {3, 4}
         else:
-            seen.add(x)
+            gesehen.add(x)
     return list(dup)
 ```
 
