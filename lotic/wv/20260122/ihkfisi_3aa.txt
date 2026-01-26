@@ -1,0 +1,76 @@
+bb)
+
+max und max2 geben die Auslastung eines Prozessors in % an. Die Werte liegen also zwischen 0-100. Keine negativen.
+
+ba)
+
+-2147483648 bis 2147483647
+
+ac)
+
+Zeile 17: max2 = CPULoad[i]
+
+ab)
+
+Der Fehler liegt in Zeile17. Hier wird der Max wert überschrieben wenn die CPU Load größer als unser bisheriger max2 wert war.
+Hier sollte der max2 Wert überschrieben werden. Nur weil die CPULoad höher war als der max2 wert, heißt es nicht, dass sie auch höher als der max wert war.
+
+Korrigierte Tabelle
+
+
+i = 0
+
+i = 5
+max = 73
+max2 = 60
+
+i = 4
+max = 73
+max2 = 40
+
+i = 3
+max = 73
+max2 = 40
+
+i = 2
+max = 40
+max2 = 12
+
+i = 1
+max = 12
+max2 = 10
+
+i = 0
+max = 12
+max2 = 0
+
+Tabelle
+
+max = 0
+max2 = 0
+
+i = 5
+max = 60
+max2 = 40
+
+i = 4
+max = 73
+max2 = 40
+
+i = 3
+max = 73
+max2 = 40
+
+i = 2
+max = 40
+max2 = 10
+
+i = 1
+max = 10
+max2 = 0
+
+i = 0
+max = 12
+max2 = 0
+
+Notiz für mich: Zeile 17 sollte max2 = CPULoad[i]

@@ -1,0 +1,169 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Seite-1" id="X4ryudzGmZerabezfwNY">
+    <mxGraphModel dx="2251" dy="837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IDXep8XvBORKjERL6lUl-7" value="Gärtner" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="200" width="500" height="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="IDXep8XvBORKjERL6lUl-7" source="IDXep8XvBORKjERL6lUl-5" target="IDXep8XvBORKjERL6lUl-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-5" value="Stellt Anforderungen zusammen." style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="IDXep8XvBORKjERL6lUl-7">
+          <mxGeometry x="85" y="110" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-13" value="Übergibt Liste mit benötigten Pflanzen an Einkauf." style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="IDXep8XvBORKjERL6lUl-7">
+          <mxGeometry x="85" y="210" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="IDXep8XvBORKjERL6lUl-7" source="IDXep8XvBORKjERL6lUl-17" target="IDXep8XvBORKjERL6lUl-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-17" value="Pflanzen zur Quarantänestation bringen." style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="IDXep8XvBORKjERL6lUl-7">
+          <mxGeometry x="85" y="500" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="IDXep8XvBORKjERL6lUl-7" source="IDXep8XvBORKjERL6lUl-29" target="IDXep8XvBORKjERL6lUl-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-29" value="Tägliche Prüfung der Pflanzen und Quarantänedauer" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="IDXep8XvBORKjERL6lUl-7">
+          <mxGeometry x="85" y="620" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="IDXep8XvBORKjERL6lUl-7" source="IDXep8XvBORKjERL6lUl-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="IDXep8XvBORKjERL6lUl-7" source="IDXep8XvBORKjERL6lUl-31" target="IDXep8XvBORKjERL6lUl-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-31" value="" style="rhombus;" vertex="1" parent="IDXep8XvBORKjERL6lUl-7">
+          <mxGeometry x="160" y="720" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-3" value="Bilder des gepflanzten Bereichs anfertigen" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="IDXep8XvBORKjERL6lUl-7">
+          <mxGeometry x="10" y="910" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="IDXep8XvBORKjERL6lUl-7" source="IDXep8XvBORKjERL6lUl-35" target="IDXep8XvBORKjERL6lUl-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-35" value="Pflanzen einpflanzen" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="IDXep8XvBORKjERL6lUl-7">
+          <mxGeometry x="10" y="810" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="IDXep8XvBORKjERL6lUl-7" source="IDXep8XvBORKjERL6lUl-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="437" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-37" value="Pflanze behandeln" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="IDXep8XvBORKjERL6lUl-7">
+          <mxGeometry x="377" y="620" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="IDXep8XvBORKjERL6lUl-7" source="IDXep8XvBORKjERL6lUl-38" target="IDXep8XvBORKjERL6lUl-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-38" value="Quarantäne verlängern" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="IDXep8XvBORKjERL6lUl-7">
+          <mxGeometry x="377" y="710" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="IDXep8XvBORKjERL6lUl-7" source="IDXep8XvBORKjERL6lUl-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="325" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="IDXep8XvBORKjERL6lUl-7" source="IDXep8XvBORKjERL6lUl-49" target="IDXep8XvBORKjERL6lUl-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-49" value="" style="rhombus;" vertex="1" parent="IDXep8XvBORKjERL6lUl-7">
+          <mxGeometry x="310" y="720" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-50" value="Q. Abgeflaufen" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="IDXep8XvBORKjERL6lUl-7">
+          <mxGeometry x="30" y="710" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-52" value="Q.&amp;nbsp; nicht Abgeflaufen" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="IDXep8XvBORKjERL6lUl-7">
+          <mxGeometry x="190" y="740" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-54" value="Pflanzen gesund" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="IDXep8XvBORKjERL6lUl-7">
+          <mxGeometry x="220" y="580" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-58" value="Pflanze krank" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="IDXep8XvBORKjERL6lUl-7">
+          <mxGeometry x="320" y="760" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-8" value="Einkauf" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="200" width="210" height="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-15" value="Bestellt Pflanzen beim Lieferanten" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="IDXep8XvBORKjERL6lUl-8">
+          <mxGeometry x="10" y="210" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="IDXep8XvBORKjERL6lUl-8" source="IDXep8XvBORKjERL6lUl-24" target="IDXep8XvBORKjERL6lUl-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-24" value="Pflanzenlieferung annehmen und Rechnunge bezahlen" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="IDXep8XvBORKjERL6lUl-8">
+          <mxGeometry x="10" y="400" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-26" value="Pflanzenlieferung an Gärtner übergeben." style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="IDXep8XvBORKjERL6lUl-8">
+          <mxGeometry x="10" y="500" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-9" value="Mitarbeiter Gartenplanung" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="200" width="210" height="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-2" value="Erteilt Auftrag zur Pflanzung" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="IDXep8XvBORKjERL6lUl-9">
+          <mxGeometry x="10" y="110" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="IDXep8XvBORKjERL6lUl-9" source="IDXep8XvBORKjERL6lUl-1" target="IDXep8XvBORKjERL6lUl-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-1" value="" style="ellipse;fillColor=strokeColor;html=1;" vertex="1" parent="IDXep8XvBORKjERL6lUl-9">
+          <mxGeometry x="85" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="IDXep8XvBORKjERL6lUl-9" source="IDXep8XvBORKjERL6lUl-60" target="IDXep8XvBORKjERL6lUl-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-60" value="Bilder des gepflanzten Bereichs anfertigen" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="IDXep8XvBORKjERL6lUl-9">
+          <mxGeometry x="10" y="910" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-62" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" vertex="1" parent="IDXep8XvBORKjERL6lUl-9">
+          <mxGeometry x="85" y="1000" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-10" value="Lieferant" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="200" width="260" height="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="IDXep8XvBORKjERL6lUl-10" source="IDXep8XvBORKjERL6lUl-18" target="IDXep8XvBORKjERL6lUl-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-18" value="Bestellung annehmen" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="IDXep8XvBORKjERL6lUl-10">
+          <mxGeometry x="30" y="210" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="IDXep8XvBORKjERL6lUl-10" source="IDXep8XvBORKjERL6lUl-4" target="IDXep8XvBORKjERL6lUl-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-4" value="Lieferung zusammenstellen" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="IDXep8XvBORKjERL6lUl-10">
+          <mxGeometry x="30" y="300" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-19" value="Pflanzen ausliefern" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="IDXep8XvBORKjERL6lUl-10">
+          <mxGeometry x="30" y="400" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1" source="IDXep8XvBORKjERL6lUl-2" target="IDXep8XvBORKjERL6lUl-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="IDXep8XvBORKjERL6lUl-13" target="IDXep8XvBORKjERL6lUl-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1" source="IDXep8XvBORKjERL6lUl-15" target="IDXep8XvBORKjERL6lUl-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1" source="IDXep8XvBORKjERL6lUl-19" target="IDXep8XvBORKjERL6lUl-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="IDXep8XvBORKjERL6lUl-26" target="IDXep8XvBORKjERL6lUl-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDXep8XvBORKjERL6lUl-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1" source="IDXep8XvBORKjERL6lUl-3" target="IDXep8XvBORKjERL6lUl-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

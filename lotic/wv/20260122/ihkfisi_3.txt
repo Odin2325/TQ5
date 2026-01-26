@@ -1,0 +1,80 @@
+bb)
+max und max2 sind prozentwerte und können nur zwischen 0-100 liegen. 8Bit sind 0-255 und somit ausreichend.
+
+ba)
+-2147483648 - 2147483647
+
+ac)
+
+Zeile 17: max2 = CPULoad[i];
+
+ab)
+Fehler ist in Zeile 17. Wir weisen max einen neuen wert zu, der nicht größer ist als das bisherige max.
+
+
+Nach Programmende
+max = 60
+max2 = 40
+
+Sechster Schleifendurchlauf
+max2 = 40
+max = 73
+
+i = 5
+CPULoad[i] = 60
+max = 60
+max2 = 40
+
+
+Fünfter Schleifendurchlauf
+max2 = 40
+max = 73
+
+i = 4
+CPULoad[i] = 33
+max2 = 40
+max = 73
+
+Vierter Schleifendurchlauf
+max = 40
+max2 = 10
+
+i = 3
+CPULoad[i] = 73
+max2 = 40
+max = 73
+
+Dritter Schleifendurchlauf
+max = 10
+max2 = 0
+
+i = 2
+CPULoad[i] = 40
+max2 = 10
+max = 40
+
+
+Zweiter Schleifendurchlauf
+max = 12
+max2 = 0
+
+i = 1
+CPULoad[i] = 10
+max = 10
+max2 = 0
+
+
+Erster Schleifendurchlauf
+
+Max und Max2 vor beginn des Schleifendurchlaufs:
+max = 0
+max2 = 0
+
+i = 0
+CPULoad[i] = 12
+
+Max und Max2 nach Schleifendurchlaufs:
+max2 = 0
+max = 12
+
+

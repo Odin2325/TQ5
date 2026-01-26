@@ -1,0 +1,76 @@
+<h1 id="lösungen">Lösungen</h1>
+<p>Aufgaben vom 22-01-2026</p>
+<h2 id="lösung-für-aufgabe-3-aa">Lösung für Aufgabe 3-aa</h2>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">i</th>
+<th style="text-align: center;">CPULoad[i]</th>
+<th style="text-align: center;">max</th>
+<th style="text-align: center;">max2</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">0</td>
+<td style="text-align: center;">12</td>
+<td style="text-align: center;">12</td>
+<td style="text-align: center;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">1</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2</td>
+<td style="text-align: center;">40</td>
+<td style="text-align: center;">40</td>
+<td style="text-align: center;">10</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">3</td>
+<td style="text-align: center;">73</td>
+<td style="text-align: center;">73</td>
+<td style="text-align: center;">40</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">4</td>
+<td style="text-align: center;">33</td>
+<td style="text-align: center;">73</td>
+<td style="text-align: center;">40</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">5</td>
+<td style="text-align: center;">60</td>
+<td style="text-align: center;">60</td>
+<td style="text-align: center;">40</td>
+</tr>
+</tbody>
+</table>
+<h2 id="lösung-für-aufgabe-3-ab">Lösung für Aufgabe 3-ab</h2>
+<p>Die Fehlerursache liegt in Zeile 17. Hier wird max ein CPULoadwert
+zugewiesen, der kleiner als das bisherige max aber größer als max2
+ist.</p>
+<h2 id="lösung-für-aufgabe-3-ac">Lösung für Aufgabe 3-ac</h2>
+<p>Ändere Zeile 17 in:</p>
+<blockquote>
+<p><code>max2 = CPULoad[i];</code></p>
+</blockquote>
+<h2 id="lösung-für-aufgabe-3-ba">Lösung für Aufgabe 3-ba</h2>
+<p>Vorzeichenbehaftete 32-Bit Integer erlauben Zahlen</p>
+<blockquote>
+<p><strong>-2147483648 - 2147483647</strong></p>
+</blockquote>
+<h2 id="lösung-für-aufgabe-3-bb">Lösung für Aufgabe 3-bb</h2>
+<p>In max und max2 werden Prozentwerte gespeichert. Der Wertebereich
+liegt daher zwischen 0 und 100.</p>
+<blockquote>
+<p>100 &gt;= max &gt;= 0</p>
+<p>100 &gt;= max2 &gt;= 0</p>
+<p>255 &gt;= Byte-Datentyp &gt;= 0</p>
+</blockquote>
+<p>Der Byte Datentyp kann zahlen von 0-255 speichern. Er ist also
+ausreichend und braucht bloß 8-Bit Speicher. Anstatt der 32-Bit die ein
+Integer benötigt.</p>

@@ -1,0 +1,99 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.3.4">
+  <diagram name="Seite-1" id="x008WH0Nz4qD0Id9eyk6">
+    <mxGraphModel dx="1426" dy="871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WSXBHaE0MgcSTY9F29Wn-7" edge="1" parent="1" source="WSXBHaE0MgcSTY9F29Wn-1" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#ff0000;align=center;verticalAlign=bottom;fontFamily=Helvetica;fontSize=12;fontColor=#000000;labelBackgroundColor=default;endArrow=open;endSize=8;" target="WSXBHaE0MgcSTY9F29Wn-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WSXBHaE0MgcSTY9F29Wn-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Wählt Kurs" vertex="1">
+          <mxGeometry height="60" width="210" x="220" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="WSXBHaE0MgcSTY9F29Wn-18" edge="1" parent="1" source="WSXBHaE0MgcSTY9F29Wn-6" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#ff0000;align=center;verticalAlign=bottom;fontFamily=Helvetica;fontSize=12;fontColor=#000000;labelBackgroundColor=default;endArrow=open;endSize=8;" target="WSXBHaE0MgcSTY9F29Wn-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WSXBHaE0MgcSTY9F29Wn-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Für Kurs Anmelden" vertex="1">
+          <mxGeometry height="60" width="210" x="220" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="WSXBHaE0MgcSTY9F29Wn-16" edge="1" parent="1" source="WSXBHaE0MgcSTY9F29Wn-8" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#ff0000;align=center;verticalAlign=bottom;fontFamily=Helvetica;fontSize=12;fontColor=#000000;labelBackgroundColor=default;endArrow=open;endSize=8;" target="WSXBHaE0MgcSTY9F29Wn-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WSXBHaE0MgcSTY9F29Wn-17" edge="1" parent="1" source="WSXBHaE0MgcSTY9F29Wn-8" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#ff0000;align=center;verticalAlign=bottom;fontFamily=Helvetica;fontSize=12;fontColor=#000000;labelBackgroundColor=default;endArrow=open;endSize=8;" target="WSXBHaE0MgcSTY9F29Wn-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WSXBHaE0MgcSTY9F29Wn-8" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;rounded=0;align=center;verticalAlign=middle;arcSize=40;fontFamily=Helvetica;fontSize=12;labelBackgroundColor=default;" value="Freie Plätze verfügbar" vertex="1">
+          <mxGeometry height="90" width="150" x="660" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="WSXBHaE0MgcSTY9F29Wn-15" edge="1" parent="1" source="WSXBHaE0MgcSTY9F29Wn-11" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#ff0000;align=center;verticalAlign=bottom;fontFamily=Helvetica;fontSize=12;fontColor=#000000;labelBackgroundColor=default;endArrow=open;endSize=8;" target="WSXBHaE0MgcSTY9F29Wn-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WSXBHaE0MgcSTY9F29Wn-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Information an Teilnehmer senden: Kurs ist ausgebucht" vertex="1">
+          <mxGeometry height="60" width="210" x="900" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="WSXBHaE0MgcSTY9F29Wn-23" edge="1" parent="1" source="WSXBHaE0MgcSTY9F29Wn-13" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#ff0000;align=center;verticalAlign=bottom;fontFamily=Helvetica;fontSize=12;fontColor=#000000;labelBackgroundColor=default;endArrow=open;endSize=8;" target="WSXBHaE0MgcSTY9F29Wn-21" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WSXBHaE0MgcSTY9F29Wn-27" edge="1" parent="1" source="WSXBHaE0MgcSTY9F29Wn-13" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#ff0000;align=center;verticalAlign=bottom;fontFamily=Helvetica;fontSize=12;fontColor=#000000;labelBackgroundColor=default;endArrow=open;endSize=8;" target="WSXBHaE0MgcSTY9F29Wn-26" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WSXBHaE0MgcSTY9F29Wn-13" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;rounded=0;align=center;verticalAlign=middle;arcSize=40;fontFamily=Helvetica;fontSize=12;labelBackgroundColor=default;" value="&lt;div&gt;Teilnahmevorauss.&lt;/div&gt;&lt;div&gt;&amp;nbsp;erfüllt?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="150" x="660" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="WSXBHaE0MgcSTY9F29Wn-14" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;rounded=1;align=center;verticalAlign=middle;arcSize=40;fontFamily=Helvetica;fontSize=12;fontColor=#000000;labelBackgroundColor=default;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="990" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="WSXBHaE0MgcSTY9F29Wn-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#000000;labelBackgroundColor=default;" value="[Nein]" vertex="1">
+          <mxGeometry height="30" width="60" x="800" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="WSXBHaE0MgcSTY9F29Wn-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#000000;labelBackgroundColor=default;" value="[Ja]" vertex="1">
+          <mxGeometry height="30" width="60" x="720" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="WSXBHaE0MgcSTY9F29Wn-25" edge="1" parent="1" source="WSXBHaE0MgcSTY9F29Wn-21" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#ff0000;align=center;verticalAlign=bottom;fontFamily=Helvetica;fontSize=12;fontColor=#000000;labelBackgroundColor=default;endArrow=open;endSize=8;" target="WSXBHaE0MgcSTY9F29Wn-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WSXBHaE0MgcSTY9F29Wn-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Anmeldung bestätigen" vertex="1">
+          <mxGeometry height="60" width="210" x="630" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="WSXBHaE0MgcSTY9F29Wn-33" edge="1" parent="1" source="WSXBHaE0MgcSTY9F29Wn-22" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#ff0000;align=center;verticalAlign=bottom;fontFamily=Helvetica;fontSize=12;fontColor=#000000;labelBackgroundColor=default;endArrow=open;endSize=8;" target="WSXBHaE0MgcSTY9F29Wn-32" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WSXBHaE0MgcSTY9F29Wn-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Anmeldebestätigung entgegennehmen" vertex="1">
+          <mxGeometry height="60" width="210" x="220" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="WSXBHaE0MgcSTY9F29Wn-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#000000;labelBackgroundColor=default;" value="[Ja]" vertex="1">
+          <mxGeometry height="30" width="60" x="720" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="WSXBHaE0MgcSTY9F29Wn-30" edge="1" parent="1" source="WSXBHaE0MgcSTY9F29Wn-26" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#ff0000;align=center;verticalAlign=bottom;fontFamily=Helvetica;fontSize=12;fontColor=#000000;labelBackgroundColor=default;endArrow=open;endSize=8;" target="WSXBHaE0MgcSTY9F29Wn-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WSXBHaE0MgcSTY9F29Wn-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Teilnehmer über fehlende Voraussetzungen informieren." vertex="1">
+          <mxGeometry height="60" width="210" x="900" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="WSXBHaE0MgcSTY9F29Wn-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#000000;labelBackgroundColor=default;" value="[Nein]" vertex="1">
+          <mxGeometry height="30" width="60" x="790" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="WSXBHaE0MgcSTY9F29Wn-29" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;rounded=1;align=center;verticalAlign=middle;arcSize=40;fontFamily=Helvetica;fontSize=12;fontColor=#000000;labelBackgroundColor=default;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="990" y="685" as="geometry" />
+        </mxCell>
+        <mxCell id="WSXBHaE0MgcSTY9F29Wn-32" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;rounded=1;align=center;verticalAlign=middle;arcSize=40;fontFamily=Helvetica;fontSize=12;fontColor=#000000;labelBackgroundColor=default;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="310" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="WSXBHaE0MgcSTY9F29Wn-34" parent="1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;rounded=1;align=center;verticalAlign=middle;arcSize=40;fontFamily=Helvetica;fontSize=12;fontColor=#000000;labelBackgroundColor=default;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="310" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WSXBHaE0MgcSTY9F29Wn-35" edge="1" parent="1" source="WSXBHaE0MgcSTY9F29Wn-34" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;align=center;fontFamily=Helvetica;fontSize=12;fontColor=#000000;labelBackgroundColor=default;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="325" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WSXBHaE0MgcSTY9F29Wn-36" parent="1" style="swimlane;whiteSpace=wrap;html=1;rounded=0;strokeColor=#ff0000;align=center;verticalAlign=middle;arcSize=40;fontFamily=Helvetica;fontSize=12;fontColor=#000000;labelBackgroundColor=default;fillColor=#ffffc0;" value="Student" vertex="1">
+          <mxGeometry height="860" width="405" x="135" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WSXBHaE0MgcSTY9F29Wn-38" parent="1" style="swimlane;whiteSpace=wrap;html=1;rounded=0;strokeColor=#ff0000;align=center;verticalAlign=middle;arcSize=40;fontFamily=Helvetica;fontSize=12;fontColor=#000000;labelBackgroundColor=default;fillColor=#ffffc0;" value="Kursverwaltung" vertex="1">
+          <mxGeometry height="860" width="580" x="540" y="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
